@@ -7,7 +7,7 @@ from app.db.database import SessionLocal
 router = APIRouter()
 
 def get_db():
-    db = SessionLocal
+    db = SessionLocal()
     try:
         yield db
     finally:

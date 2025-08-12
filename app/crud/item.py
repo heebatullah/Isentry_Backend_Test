@@ -9,7 +9,7 @@ def get_items(db: Session, skip: int=0, limit: int=10):
 
 def create_item(db: Session, item_create):
     db_item = item(name=item_create.name, description=item_create.description)
-    db.session.add(db_item)
+    db.add(db_item)
     db.commit()
     db.refresh(db_item)
     return db_item

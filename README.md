@@ -2,6 +2,10 @@
 
 This is a small FastAPI application with a few intentional bugs. The goal of this assessment is to evaluate your ability to debug code, your understanding of web development concepts, and your knowledge of version control.
 
+## Important Notes for Interns
+
+- **Do Not Close/Create Issues:** You should not close/create any issues, even after submitting a pull request. Issues will remain open for assessment by the maintainers.
+
 ## Getting Started
 
 To get started, you will need to have Python 3.8+ and Git installed on your machine.
@@ -23,13 +27,13 @@ git clone https://github.com/YOUR_USERNAME/backend_test.git
 Before you start working on an issue, you should create a new branch for that issue. This will help you keep your changes organized and separate from the main branch.
 
 ```bash
-git checkout -b issue-<issue_number>
+git checkout -b [your-name]-issue-<issue_number->
 ```
 
 For example, if you are working on issue #3, you would run:
 
 ```bash
-git checkout -b issue-3
+git checkout -b [your-name]-issue-3
 ```
 
 ### 4. Set Up the Development Environment
@@ -85,9 +89,17 @@ Finally, you can open a pull request to the main repository. In your pull reques
 
 We will be assessing you on the following criteria:
 
--   **Your thought process:** How you approach debugging and problem-solving.
--   **Your knowledge of version control:** Your ability to use Git and GitHub effectively.
--   **The quality of your code:** The clarity, correctness, and efficiency of your code.
--   **Your communication skills:** Your ability to communicate your ideas and work effectively.
+- **Your thought process:** How you approach debugging and problem-solving.
+- **Your knowledge of version control:** Your ability to use Git and GitHub effectively.
+- **The quality of your code:** The clarity, correctness, and efficiency of your code.
+- **Your communication skills:** Your ability to communicate your ideas and work effectively.
+
+## Additional Tips
+
+- Be respectful and professional in all communications.
+- Ask questions if you are unsure about anything.
+- Review the codebase and documentation to familiarize yourself with the project.
+
+Thank you for contributing!
 
 Good luck!
